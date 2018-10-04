@@ -1,0 +1,62 @@
+1)Install Git
+
+2)Setup your Identity
+	*git config --global user.name "Edu"
+	*git config --global user.email "edukondlau.kunduru@wipro.com"
+	*git config --global core.editor notepad or nodtepad++ etc (if you want to configure your favourite editor)
+
+3)Create GIT Repo
+	*In two ways you can create GIT repo.
+	*Create a directory and intiate git init to create repo. Once repo is created it will create .git direc
+		mkdir gfx_dev
+		git init
+	*Another way of creating is clone the existing git repo
+	git clone url or local path
+* To add remote origin
+	cd to your local repo
+ ex:ed364809/Desktop/GIT_REPOS/DevopsTraining-github
+ Ex:git remote add origin "https://github.com/edukunduru83/DevopsTraining-github.git"
+*once remote origin added , then run git pull command to pull data from remote repo to local repo
+ex:git pull origin master
+
+4)Stages of files
+	* Commited , Modified and Staged
+	* git status (to see the file state)
+	* git add filename (to add file to stagin)
+	* git commit -m "My first commit" (to commit changes to repo)
+	* git commit -a -m "Skking adding to staging and commit directly to repo"
+	* git diff (to check difference b/w working dir and staging and commited"
+	* git log (check the log)
+
+5)Remove and Renaming files
+	* git rm filename (remove the file)
+	* git commit -a -m "file deleted"
+	
+	* git mv filename filename1 (renames the file)
+	 
+
+6)Undoing
+	* git commit --amend -m "adds to previous commit"
+	* git reset HEAD file_name "Unstages the file"
+	* git checkout -- file_name "Discard the changes in working directory"
+
+7)Show remote
+	* git remote -v (shows the remote urls)
+
+
+8)Branches
+	*To create branches
+	 	git branch branch_name
+	*Switch to branch
+		git checkout branch_name
+	*Create and switch to branch at sametime
+		git checkout -b branch_name
+	*To merge changes from dev branch to master - go to master and exex below command
+		git checkout master
+		git merge branch_name
+	*To delete branch
+		git branch -d branch_name
+	*To list branches
+		git branch
+	
+
