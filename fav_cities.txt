@@ -4,3 +4,8 @@ Bengaluru
 Tirupati
 Vizag
 Goa
+Mangalore
+Delhi
+Kochi
+Mumbai
+Chennai
