@@ -1,4 +1,5 @@
 My favourite cities are
+Vijayawada
 Hyderabad
 Bengaluru
 Tirupati
@@ -9,3 +10,5 @@ Delhi
 Kochi
 Mumbai
 Chennai
+Guntur
+Madurai
