@@ -1,5 +1,7 @@
-First file from firstbranch
-Adding new line
+Deleting line
+Hello World
+THree way merge
 This line is added to demonstrate the git pull command
+Adding some lines too
 Adding new line to check pull origin
-This is a new line
+This is a new line also some content
